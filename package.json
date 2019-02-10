@@ -1,0 +1,36 @@
+{
+  "name": "typescript-jest-boilerplate",
+  "version": "1.0.0",
+  "description": "A setup typescript projects with jest tests",
+  "main": "src/TestClass.js",
+  "keywords": [
+    "typescript","jest","boilerplate"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "lint": "eslint **/*.ts",
+    "start": "./index.js",
+    "test":  "jest"
+  },
+  "author": "Otto Pecz <otto.pecz.developer@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.0",
+    "@types/node": "^10.12.24",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-typescript": "^0.14.0",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.1",
+    "typescript-eslint-parser": "^22.0.0"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.10"
+  }
+}
+
