@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { EventEmitter } from 'events';
 import 'reflect-metadata';
 import 'source-map-support/register';
