@@ -2,15 +2,17 @@
   "name": "typescript-jest-boilerplate",
   "version": "1.0.0",
   "description": "A setup typescript projects with jest tests",
-  "main": "src/TestClass.js",
+  "main": "dist/src/index.js",
   "keywords": [
-    "typescript","jest","boilerplate"
+    "typescript",
+    "jest",
+    "boilerplate"
   ],
   "scripts": {
     "tsc": "tsc",
     "lint": "eslint **/*.ts",
-    "start": "./index.js",
-    "test":  "jest"
+    "start": "dist/src/index.js",
+    "test": "jest"
   },
   "author": "Otto Pecz <otto.pecz.developer@gmail.com>",
   "license": "MIT",
@@ -33,4 +35,3 @@
     "source-map-support": "^0.5.10"
   }
 }
-
