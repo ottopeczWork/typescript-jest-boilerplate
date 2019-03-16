@@ -10,6 +10,7 @@
     "inlineSources": true,
     "inlineSourceMap": true,
     "types": ["node", "jest"],
-    "allowJs": false
+    "allowJs": false,
+    "esModuleInterop": true
   }
 }
