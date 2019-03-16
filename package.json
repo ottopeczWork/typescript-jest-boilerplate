@@ -2,7 +2,7 @@
   "name": "typescript-jest-boilerplate",
   "version": "1.0.0",
   "description": "A setup typescript projects with jest tests",
-  "main": "dist/src/index.js",
+  "main": "dist/src/app.js",
   "keywords": [
     "typescript",
     "jest",
